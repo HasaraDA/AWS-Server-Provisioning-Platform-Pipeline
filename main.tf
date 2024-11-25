@@ -11,6 +11,8 @@ resource "aws_instance" "ec2_instance" {
   vpc_security_group_ids = [each.value.security_group_id]
   subnet_id              = each.value.subnet_id
 
+  associate_public_ip_address = each.value.assign_public_ip  # Conditional public IP assignment
+
   tags = {
     Name = each.value.name
   }
