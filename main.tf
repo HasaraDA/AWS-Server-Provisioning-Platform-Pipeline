@@ -21,9 +21,10 @@ resource "aws_instance" "ec2_instance" {
     Name = each.value.name
   }
 
-  lifecycle {
-    prevent_destroy = true  # Prevent destruction of existing instances
-  }
+  # Comment out or remove prevent_destroy for this run
+  # lifecycle {
+  #   prevent_destroy = true  # Temporarily disable prevent_destroy for this run
+  # }
 }
 
 output "instance_ips" {
