@@ -8,5 +8,6 @@ variable "servers" {
     key_name          = string
     vpc_id            = string
     subnet_id         = string
+    assign_public_ip  = bool
   }))
 }
