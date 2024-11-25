@@ -1,22 +1,24 @@
-servers = [
-  {
-    name              = "server1"
-    instance_type     = "t2.micro"
-    ami_id            = "ami-0abcdef1234567890"
-    security_group_id = "sg-0123456789abcdef0"
-    key_name          = "my-key-pair"
-    vpc_id            = "vpc-1234abcd"
-    subnet_id         = "subnet-5678efgh"
-    assign_public_ip  = true
-  },
-  {
-    name              = "server2"
-    instance_type     = "t2.micro"
-    ami_id            = "ami-0abcdef1234567890"
-    security_group_id = "sg-0123456789abcdef0"
-    key_name          = "my-key-pair"
-    vpc_id            = "vpc-1234abcd"
-    subnet_id         = "subnet-5678efgh"
-    assign_public_ip  = false
-  }
-]
+{
+  "servers": [
+    {
+      "name": "server1",
+      "instance_type": "t2.micro",
+      "ami_id": "ami-0abcdef1234567890",
+      "security_group_id": "sg-0123456789abcdef0",
+      "key_name": "my-key-pair",
+      "vpc_id": "vpc-1234abcd",
+      "subnet_id": "subnet-5678efgh",
+      "assign_public_ip": true
+    },
+    {
+      "name": "server2",
+      "instance_type": "t2.micro",
+      "ami_id": "ami-0abcdef1234567890",
+      "security_group_id": "sg-0123456789abcdef0",
+      "key_name": "my-key-pair",
+      "vpc_id": "vpc-1234abcd",
+      "subnet_id": "subnet-5678efgh",
+      "assign_public_ip": false
+    }
+  ]
+}
