@@ -1,11 +1,24 @@
 {
-    "SERVER_NAME": "Server01",
-    "AWS_REGION": "ap-southeast-1",
-    "INSTANCE_TYPE": "t2.micro",
-    "AMI_ID": "ami-047126e50991d067b",
-    "KEY_NAME": "MyKeyPair",
-    "VPC_ID": "vpc-0e618698bbfa4ff91",
-    "SUBNET_ID": "subnet-0bb8f3a9d1dfcee16",
-    "SECURITY_GROUP_ID": "sg-07d01c4aa4a3000fb"
-
+    "servers": [
+        {
+            "SERVER_NAME": "Server01",
+            "AWS_REGION": "ap-southeast-1",
+            "INSTANCE_TYPE": "t2.micro",
+            "AMI_ID": "ami-047126e50991d067b",
+            "KEY_NAME": "MyKeyPair",
+            "VPC_ID": "vpc-0e618698bbfa4ff91",
+            "SUBNET_ID": "subnet-0bb8f3a9d1dfcee16",
+            "SECURITY_GROUP_ID": "sg-07d01c4aa4a3000fb"
+        },
+        {
+            "SERVER_NAME": "Server02",
+            "AWS_REGION": "ap-southeast-1",
+            "INSTANCE_TYPE": "t2.micro",
+            "AMI_ID": "ami-047126e50991d067b",
+            "KEY_NAME": "MyKeyPair",
+            "VPC_ID": "vpc-0e618698bbfa4ff91",
+            "SUBNET_ID": "subnet-0bb8f3a9d1dfcee16",
+            "SECURITY_GROUP_ID": "sg-07d01c4aa4a3000fb"
+        }
+    ]
 }
