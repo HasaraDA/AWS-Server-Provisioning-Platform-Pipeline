@@ -147,7 +147,3 @@ To update the lifecycle and destroy the resources, follow these steps:
      ```
 
 This will allow the EC2 instances to be destroyed.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
