@@ -20,6 +20,10 @@ resource "aws_instance" "ec2_instance" {
   tags = {
     Name = each.value.name
   }
+
+  lifecycle {
+    prevent_destroy = true  # Prevent destruction of existing instances
+  }
 }
 
 output "instance_ips" {
