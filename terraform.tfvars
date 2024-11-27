@@ -1,6 +1,6 @@
 servers = [
   {
-    name             = "server1"
+    name             = "Server001"
     instance_type    = "t2.micro"
     ami_id           = "ami-047126e50991d067b"
     security_group_id = "sg-07d01c4aa4a3000fb"
@@ -10,7 +10,7 @@ servers = [
     assign_public_ip = true
   },
   {
-    name             = "server2"
+    name             = "Server002"
     instance_type    = "t2.micro"
     ami_id           = "ami-047126e50991d067b"
     security_group_id = "sg-07d01c4aa4a3000fb"
@@ -20,7 +20,7 @@ servers = [
     assign_public_ip = true
   },
   {
-    name             = "server2"
+    name             = "Server003"
     instance_type    = "t2.micro"
     ami_id           = "ami-047126e50991d067b"
     security_group_id = "sg-07d01c4aa4a3000fb"
